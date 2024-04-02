@@ -1,0 +1,36 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+/* // add the code bellow */
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+
+    .scroll-active {
+      width: 2rem;
+    }
+
+    .svc-card {
+      width: 300px !important;
+    }
+
+    #hero-heading,
+    #shady-text {
+      text-shadow: 2px 2px 4px #ddf7fa;
+    }
+    #hero-para {
+      text-shadow: 2px 2px 4px #730220;
+    }
+  }
+}

@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tailwind Immigration- Canada's Top Immigration Consultants"
+    />
+    <meta name="keywords" content="Immigration, Canada, Permits" />
+    <script
+      src="https://kit.fontawesome.com/f6d5cfc65c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="img/logo.png" type="image/icon type" />
+    <link href="/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Inter:wght@100;200;300;400;600;700&family=Karla:wght@400;700&family=Lustria&family=Oxygen:wght@400;700&family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tailwind Immigration IRCC Consultancy</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body style="font-family: 'Inter', sans-serif">
+    <!-- Status Bar -->
+    <section id="status-bar" class="bg-[#1D3640]">
+      <div
+        class="container mx-auto hidden md:flex items-center justify-evenly text-white text-sm lg:text-base"
+      >
+        <div class="mx-auto">
+          <p>Suite 001, Unit 007, 3000 Main St., Riverdale, ON X0Z0Y0</p>
+        </div>
+        <div class="mx-auto"><p>M-F: 11am-7pm; Sat/Sun: Call only</p></div>
+        <div class="mx-auto"><p>+1 (905) 999-9999</p></div>
+      </div>
+    </section>
+    <!-- Nav Bar -->
+    <section
+      id="navbar"
+      class="text-lg sticky top-0 z-40 h-20 flex items-center shadow-md bg-[#ffffff] text-brightRed"
+    >
+      <div
+        class="lg:container lg:mx-auto flex justify-between items-center p-5 w-full"
+      >
+        <div
+          class="flex flex-row flex-shrink-0 items-center text-center text-sm md:text-lg font-bold text-black me-2"
+        >
+          <img src="/img/logo.png" alt="" style="height: 70px" />
+          <h1>
+            Tailwind <br />
+            Immigration
+          </h1>
+        </div>
+        <!-- Menu Items -->
+        <div
+          class="hidden container lg:mx-auto space-x-6 justify-end md:flex items-center"
+        >
+          <a href="#" class="hover:text-[#F2784B]">Home</a>
+          <a href="#services" class="hover:text-[#F2784B]">Services</a>
+          <a href="#feedback" class="hover:text-[#F2784B]">Testimonials</a>
+          <a href="#footer" class="hover:text-[#F2784B]">Contact</a>
+          <a
+            href="#_"
+            class="px-5 py-2.5 relative rounded group font-medium text-white inline-block text-center"
+          >
+            <span
+              class="absolute top-0 left-0 w-full h-full rounded opacity-50 filter blur-sm bg-gradient-to-br from-brightRed to-brightRedLight"
+            ></span>
+            <span
+              class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded opacity-50 from-brightRed to-brightRedLight"
+            ></span>
+            <span
+              class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-brightRed to-brightRedLight"
+            ></span>
+            <span
+              class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded bg-gradient-to-br to-brightRed from-brightRedLight"
+            ></span>
+            <span class="relative font-semibold text-sm"
+              >Book an Appointment</span
+            >
+          </a>
+        </div>
+
+        <!-- Navbar Toggle Button -->
+        <div
+          id="toggle-btn"
+          class="flex flex-col md:hidden space-y-2 p-2 bg-greySubtle rounded-lg hover:bg-slate-200 duration-300 cursor-pointer active:bg-slate-300"
+        >
+          <div class="h-[4px] w-7 rounded-full bg-brightRed"></div>
+          <div class="h-[4px] w-7 rounded-full bg-brightRed"></div>
+          <div class="h-[4px] w-7 rounded-full bg-brightRed"></div>
+        </div>
+        <!-- Expanded Navbar -->
+        <div
+          id="expanded-navbar"
+          class="hidden flex-col text-center text-brightRed md:hidden absolute top-20 left-0 w-full"
+        >
+          <div
+            class="bg-white border-y-2 border-brightRed p-2 hover:text-brightRedLight"
+          >
+            <a href="#"><span>Home</span></a>
+          </div>
+          <div
+            class="bg-white border-b-2 border-brightRed p-2 hover:text-brightRedLight"
+          >
+            <a href="#services"><span>Services</span></a>
+          </div>
+          <div
+            class="bg-white border-b-2 border-brightRed p-2 hover:text-brightRedLight"
+          >
+            <a href="#feedback"><span>Testimonials</span></a>
+          </div>
+          <div
+            class="bg-white border-b-2 border-brightRed p-2 hover:text-brightRedLight"
+          >
+            <a href="#contact"><span>Contact</span></a>
+          </div>
+          <div class="bg-brightRed border-b-2 border-white text-white p-2">
+            <a href="#contact"
+              ><span class="hover:text-brightRedLight"
+                >Book Consultation</span
+              ></a
+            >
+            <div class="flex space-x-4 justify-center my-4">
+              <a href="https://www.facebook.com" target="main">
+                <i
+                  class="fa-brands fa-facebook-f hover:text-brightRedLight active:text-blackAlternative cursor-pointer"
+                ></i
+              ></a>
+              <a href="https://www.twitter.com" target="main"
+                ><i
+                  class="fa-brands fa-x-twitter hover:text-brightRedLight active:text-blackAlternative cursor-pointer"
+                ></i
+              ></a>
+              <a href="https://www.linkedin.com" target="main"
+                ><i
+                  class="fa-brands fa-linkedin hover:text-brightRedLight active:text-blackAlternative cursor-pointer"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section
+      id="hero"
+      class="w-full relative z-10 before:bg-[url('https://images.unsplash.com/photo-1490623970972-ae8bb3da443e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2FuYWRhfGVufDB8fDB8fHww&w=1000&q=80')] before:z-0 before:w-full before:h-full before:top-0 before:left-0 before:absolute before:bg-cover"
+      style="height: 87vh"
+    >
+      <div class="container h-full mx-auto flex flex-col justify-center">
+        <div
+          class="container w-1/2 z-10 mx-auto md:mx-0 text-center md:text-start"
+        >
+          <h1
+            id="hero-heading"
+            class="text-4xl font-bold md:text-6xl text-brightRed"
+          >
+            Embrace Canada as Your New Home
+          </h1>
+          <p
+            id="hero-para"
+            class="text-xl md:text-3xl font-semibold text-[#ddf7fa]"
+          >
+            <br />
+            We're Here to Welcome You with Open Arms Let Us Guide You on Your
+            Path to Canada with Care and Compassion
+          </p>
+          <br /><br />
+          <a
+            href="#_"
+            class="px-5 py-2.5 relative rounded group font-medium text-whiteAlternative inline-block"
+          >
+            <span
+              class="absolute top-0 left-0 w-full h-full rounded opacity-50 filter blur-sm bg-gradient-to-br from-brightRed to-brightRedLight"
+            ></span>
+            <span
+              class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded opacity-50 from-brightRed to-brightRedLight"
+            ></span>
+            <span
+              class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-brightRed to-brightRedLight"
+            ></span>
+            <span
+              class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded bg-gradient-to-br to-brightRed from-brightRedLight"
+            ></span>
+            <span class="relative">Book an Appointment</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Banner -->
+    <div
+      class="flex h-20 w-full bg-brightRed items-center justify-center text-center"
+    >
+      <h2 class="text-whiteAlternative md:text-3xl">
+        We're Dedicated to Your Success
+      </h2>
+    </div>
+
+    <!-- About Us Preview -->
+    <section
+      id="about-us-preview"
+      class="md:pt-10 lg:pt-20 z-10 relative after:content-[''] after:bg-[url('./img/bg.webp')] after:absolute after:z-0 after:h-full after:w-full after:top-0 after:opacity-50 after:blur-md after:bg-cover"
+    >
+      <div
+        class="container z-10 flex flex-col md:flex-row mx-auto md:justify-center place-items-start text-center md:text-start"
+      >
+        <div
+          class="p-3 z-10 md:w-1/2 mx-auto md:me-5 max-w-xs md:max-w-md md:h-[600px]"
+        >
+          <div class="flex h-full">
+            <img
+              class="rounded-t-full object-cover w-full h-full"
+              src="img/who-we-are.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="p-3 z-10 mx-auto flex flex-col place-self-center justify-center md:w-1/2 xl:max-w-md text-blackAlternative"
+        >
+          <p>WHO WE ARE</p>
+          <br />
+          <h2
+            class="text-2xl lg:text-3xl relative text-brightRed font-semibold"
+          >
+            Trusted Partner for Immigration and Visa Services in Toronto
+            <span class="absolute -bottom-2 left-0 h-1 w-1/2 bg-brightRed">
+              <span class="absolute -bottom-0 -right-2 h-1 w-1 bg-brightRed"
+                ><span class="absolute -bottom-0 -right-2 h-1 w-1 bg-brightRed"
+                  ><span
+                    class="absolute -bottom-0 -right-2 h-1 w-1 bg-brightRed"
+                  ></span></span
+              ></span>
+            </span>
+          </h2>
+
+          <br />
+          <h3 class="lg:text-2xl font-semibold">
+            Turning Your Canadian Dreams into Reality
+          </h3>
+          <br />
+          <p class="lg:text-lg">
+            Tailwind Immigration is a reputable firm, comprised of a team of
+            qualified immigration Advocates and Consultants (members of the Law
+            Society of Ontario and ICCRC). We take great pride in assisting
+            students and professionals who aspire to pursue their academic or
+            career goals in Canada. Whether your goal is to study, work, or
+            settle in Canada, we provide the guidance and support necessary to
+            help you overcome every challenge. Our dedicated professionals offer
+            personalized services tailored to your specific immigration needs,
+            guiding you through the entire process, one step at a time.
+          </p>
+          <br />
+          <div>
+            <a
+              href="#_"
+              class="px-5 py-2.5 relative rounded group font-medium text-white inline-block"
+            >
+              <span
+                class="absolute top-0 left-0 w-full h-full rounded opacity-50 filter blur-sm bg-gradient-to-br from-brightRed to-brightRedLight"
+              ></span>
+              <span
+                class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded opacity-50 from-brightRed to-brightRedLight"
+              ></span>
+              <span
+                class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-brightRed to-brightRedLight"
+              ></span>
+              <span
+                class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded bg-gradient-to-br to-brightRed from-brightRedLight"
+              ></span>
+              <span class="relative">Learn More</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner -->
+    <div
+      class="flex h-20 w-full bg-brightRed items-center justify-center text-center"
+    >
+      <h2 class="text-whiteAlternative md:text-3xl">
+        We're Dedicated to Your Success
+      </h2>
+    </div>
+    <!-- Services Section -->
+    <section
+      id="services"
+      class="pt-20 z-10 md:pt-24 relative after:content-[''] after:bg-[url('./img/pnp.webp')] after:absolute after:z-0 after:h-full after:w-full after:top-0 after:opacity-90 after:blur-sm after:bg-cover text-white"
+    >
+      <div class="flex flex-col justify-center mx-auto">
+        <div
+          class="container mx-auto flex flex-col md:flex-row text-center md:text-start w-full"
+        >
+          <div class="flex flex-col md:flex-row z-10">
+            <div class="w-full md:w-1/2 md:me-5 md:ms-5 text-whiteAlternative">
+              <p>OUR SERVICES</p>
+              <br />
+              <h2 class="text-3xl relative font-semibold">
+                Our Expertise in Immigration
+                <span
+                  class="absolute -bottom-2 left-0 h-1 w-1/2 bg-whiteAlternative"
+                >
+                  <span
+                    class="absolute -bottom-0 -right-2 h-1 w-1 bg-whiteAlternative"
+                    ><span
+                      class="absolute -bottom-0 -right-2 h-1 w-1 bg-whiteAlternative"
+                      ><span
+                        class="absolute -bottom-0 -right-2 h-1 w-1 bg-whiteAlternative"
+                      ></span></span
+                  ></span>
+                </span>
+              </h2>
+            </div>
+            <div class="w-full md:w-1/2 pt-5 md:p-4 text-whiteAlternative">
+              <p class="text-lg font-semibold">
+                Our dedicated team of certified immigration consultants is here
+                to assist with your visa requirements, eligibility assessments,
+                program guidance, and application submissions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col mx-5 sm:mx-10 relative z-10 border-black border-40 bg-black opacity-80 rounded-3xl items-center"
+          id="svc-bg"
+        >
+          <div
+            class="absolute hidden sm:inline top-52 -left-8 text-4xl w-10 h-10 hover:text-red-500 hover:active:text-brightRed"
+            id="svc-larr"
+          >
+            <span class="absolute fa fa-angle-left"></span>
+          </div>
+          <div
+            class="absolute hidden sm:inline top-52 -right-12 text-4xl w-10 h-10 hover:text-red-500 hover:active:text-brightRed"
+            id="svc-rarr"
+          >
+            <span class="absolute fa fa-angle-right"></span>
+          </div>
+          <div
+            class="lg:container lg:mx-auto sm:p-10 mt-5 flex flex-col sm:flex-row sm:overflow-x-scroll no-scrollbar py-10 sm:scroll-pl-6 sm:space-x-4 sm:w-full scroll-smooth items-stretch text-center"
+            id="services-div"
+          >
+            <div
+              class="container flex flex-col p-4 rounded-lg hover:cursor-pointer hover:bg-white hover:bg-opacity-20 active:cursor-"
+              style="max-width: 300px; min-width: 300px"
+            >
+              <div
+                id="shady-text"
+                class="container z-10 relative flex flex-col mx-auto p-5 before:z-0 before:w-full before:rounded-lg before:h-full before:top-0 before:left-0 before:bg-white before:absolute text-brightRed before:opacity-80 md:h-32 justify-between"
+              >
+                <span class="z-10"
+                  ><i class="fa-solid fa-graduation-cap fa-2xl"></i
+                ></span>
+                <h3 class="z-10 text-2xl mt-2 font-semibold">Study Permits</h3>
+              </div>
+              <div class="pt-5">
+                <p class="text-sm">
+                  Canada offers an excellent education system, making it an
+                  attractive destination for Indian students. The return on
+                  investment is promising, making it a viable choice for those
+                  seeking quality education abroad.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col p-4 rounded-lg hover:cursor-pointer hover:bg-white hover:bg-opacity-20 active:cursor"
+              style="max-width: 300px; min-width: 300px"
+            >
+              <div
+                id="shady-text"
+                class="container z-10 relative flex flex-col mx-auto p-5 before:z-0 before:w-full before:rounded-lg before:h-full before:top-0 before:left-0 before:bg-white before:absolute text-brightRed before:opacity-80 md:h-32 justify-between"
+              >
+                <span class="z-10"
+                  ><i class="fa-solid fa-briefcase fa-2xl"></i
+                ></span>
+                <h3 class="z-10 text-2xl mt-2 font-semibold">Work Permits</h3>
+              </div>
+              <div class="pt-5">
+                <p class="text-sm">
+                  Canada's work permit programs provide exceptional
+                  opportunities for individuals looking to gain valuable
+                  international work experience. With a diverse job market and a
+                  strong economy, obtaining a work permit in Canada can open
+                  doors to rewarding career prospects.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center p-4 rounded-lg hover:cursor-pointer hover:bg-white hover:bg-opacity-20 active:cursor-"
+              style="max-width: 300px; min-width: 300px"
+            >
+              <div
+                id="shady-text"
+                class="container z-10 relative flex flex-col mx-auto p-5 before:z-0 before:w-full before:rounded-lg before:h-full before:top-0 before:left-0 before:bg-white before:absolute text-brightRed before:opacity-80 md:h-32 justify-between"
+              >
+                <span class="z-10"
+                  ><i class="fa-solid fa-passport fa-2xl"></i
+                ></span>
+                <h3 class="z-10 text-2xl mt-2 font-semibold">
+                  Express Entry System
+                </h3>
+              </div>
+
+              <div class="pt-5">
+                <p class="text-sm">
+                  The Express Entry System is a dynamic immigration pathway for
+                  skilled workers looking to make Canada their new home. With a
+                  points-based selection system, it offers a streamlined route
+                  to permanent residency, ensuring that your qualifications and
+                  expertise are valued.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center p-4 rounded-lg hover:cursor-pointer hover:bg-white hover:bg-opacity-20 active:cursor-"
+              style="max-width: 300px; min-width: 300px"
+            >
+              <div
+                id="shady-text"
+                class="container z-10 relative flex flex-col mx-auto p-5 before:z-0 before:w-full before:rounded-lg before:h-full before:top-0 before:left-0 before:bg-white before:absolute text-brightRed before:opacity-80 md:h-32 justify-between"
+              >
+                <span class="z-10"
+                  ><i class="fa-solid fa-canadian-maple-leaf fa-2xl"></i
+                ></span>
+                <h3 class="z-10 text-2xl mt-2 font-semibold">
+                  Provincial Nominee Programs (PNPs)
+                </h3>
+              </div>
+              <div class="pt-5">
+                <p class="text-sm">
+                  Provincial Nominee Programs are tailored to specific provinces
+                  and territories, offering pathways to permanent residency for
+                  individuals with skills and experience in demand within those
+                  regions. They present a unique chance to build a life in
+                  Canada while contributing to local economies.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center p-4 rounded-lg hover:cursor-pointer hover:bg-white hover:bg-opacity-20 active:cursor-"
+              style="max-width: 300px; min-width: 300px"
+            >
+              <div
+                id="shady-text"
+                class="container z-10 relative flex flex-col mx-auto p-5 before:z-0 before:w-full before:rounded-lg before:h-full before:top-0 before:left-0 before:bg-white before:absolute text-brightRed before:opacity-80 md:h-32 justify-between"
+              >
+                <span class="z-10"
+                  ><i class="fa-solid fa-people-roof fa-2xl"></i
+                ></span>
+                <h3 class="z-10 text-2xl mt-2 font-semibold">
+                  Family/Spouse Sponsorship
+                </h3>
+              </div>
+
+              <div class="pt-5">
+                <p class="text-sm">
+                  Canada's family sponsorship programs allow Canadian citizens
+                  and permanent residents to reunite with their loved ones.
+                  These programs demonstrate Canada's commitment to keeping
+                  families together, offering a path for relatives to join their
+                  close-knit communities.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center p-4 rounded-lg hover:cursor-pointer hover:bg-white hover:bg-opacity-20 active:cursor-"
+              style="max-width: 300px; min-width: 300px"
+            >
+              <div
+                id="shady-text"
+                class="container z-10 relative flex flex-col mx-auto p-5 before:z-0 before:w-full before:rounded-lg before:h-full before:top-0 before:left-0 before:bg-white before:absolute text-brightRed before:opacity-80 md:h-32 justify-between"
+              >
+                <span class="z-10"
+                  ><i
+                    class="fa-solid fa-person-walking-dashed-line-arrow-right fa-2xl"
+                  ></i
+                ></span>
+                <h3 class="z-10 text-2xl mt-2 font-semibold">
+                  Refugee and Asylum Claims
+                </h3>
+              </div>
+
+              <div class="pt-5">
+                <p class="text-sm">
+                  Canada's compassionate approach to refugees and asylum seekers
+                  is reflected in its refugee and asylum claim processes. The
+                  country provides a safe haven for those fleeing persecution
+                  and a thorough system for those seeking protection.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center p-4 rounded-lg hover:cursor-pointer hover:bg-white hover:bg-opacity-20 active:cursor-"
+              style="max-width: 300px; min-width: 300px"
+            >
+              <div
+                id="shady-text"
+                class="container z-10 relative flex flex-col mx-auto p-5 before:z-0 before:w-full before:rounded-lg before:h-full before:top-0 before:left-0 before:bg-white before:absolute text-brightRed before:opacity-80 md:h-32 justify-between"
+              >
+                <span class="z-10"
+                  ><i class="fa-solid fa-earth-americas fa-2xl"></i
+                ></span>
+                <h3 class="z-10 text-2xl mt-2 font-semibold">Visitor Visas</h3>
+              </div>
+              <div class="pt-5">
+                <p class="text-sm">
+                  Visiting Canada offers the chance to explore the country's
+                  natural beauty and vibrant cities. A visitor visa provides an
+                  avenue for tourists, business travelers, and those looking to
+                  experience the Canadian way of life while enjoying its
+                  hospitality.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center p-4 rounded-lg hover:cursor-pointer hover:bg-white hover:bg-opacity-20 active:cursor-"
+              style="max-width: 300px; min-width: 300px"
+            >
+              <div
+                id="shady-text"
+                class="container z-10 relative flex flex-col mx-auto p-5 before:z-0 before:w-full before:rounded-lg before:h-full before:top-0 before:left-0 before:bg-white before:absolute text-brightRed before:opacity-80 md:h-32 justify-between"
+              >
+                <span class="z-10"
+                  ><i class="fa-solid fa-person-cane fa-2xl"></i
+                ></span>
+                <h3 class="z-10 text-2xl mt-2 font-semibold">Super Visas</h3>
+              </div>
+              <div class="pt-5">
+                <p class="text-sm">
+                  The Super Visa is a special immigration program designed to
+                  promote family reunification in Canada. It provides an avenue
+                  for parents and grandparents of Canadian citizens or permanent
+                  residents to visit their loved ones and enjoy extended stays
+                  in the country.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute z-30 hidden sm:flex space-x-3 -translate-x-1/2 bottom-5 left-1/2"
+          >
+            <button
+              id="sbtn-1"
+              type="button"
+              class="w-3 h-3 rounded-full bg-whiteAlternative scroll-active transition delay-150 ease-in-out hover:bg-red-500 hover:active:text-brightRed"
+            ></button>
+            <button
+              id="sbtn-2"
+              type="button"
+              class="w-3 h-3 rounded-full bg-whiteAlternative transition delay-150 ease-in-out hover:bg-red-500 hover:active:text-brightRed"
+            ></button>
+            <button
+              id="sbtn-3"
+              type="button"
+              class="w-3 h-3 rounded-full bg-whiteAlternative transition delay-150 ease-in-out hover:bg-red-500 hover:active:text-brightRed"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Feedback Section -->
+    <section
+      id="feedback"
+      class="relative after:content-[''] after:absolute after:z-0 after:bg-whiteAlternative after:h-full after:w-full after:top-0 after:opacity-30 after:bg-cover"
+    >
+      <!-- after:bg-[url('./img/visitor-visa.webp')]  can use later -->
+      <div
+        class="container z-10 flex flex-col mx-auto justify-center space-x-0 text-center md:text-start"
+      >
+        <div class="flex flex-col mx-auto z-10 mt-5 md:mt-10">
+          <p class="text-sm text-blackAlternative">WHAT OUR CLIENTS SAY</p>
+          <br />
+          <h3 class="text-3xl font-semibold relative text-blackAlternative">
+            Feedback from Our Clients
+            <span
+              class="absolute -bottom-2 left-0 h-1 w-1/2 bg-blackAlternative"
+            >
+              <span
+                class="absolute -bottom-0 -right-2 h-1 w-1 bg-blackAlternative"
+                ><span
+                  class="absolute -bottom-0 -right-2 h-1 w-1 bg-blackAlternative"
+                  ><span
+                    class="absolute -bottom-0 -right-2 h-1 w-1 bg-blackAlternative"
+                  ></span></span
+              ></span>
+            </span>
+          </h3>
+        </div>
+        <div
+          class="z-10 container relative scroll-smooth no-scrollbar xl:justify-center items-start my-4 flex overflow-x-scroll"
+          id="feedback-div"
+        >
+          <div
+            class="flex justify-center flex-col p-4 rounded-lg"
+            style="max-width: 300px; min-width: 300px"
+          >
+            <article
+              class="p-5 flex flex-col items-start justify-start text-xs bg-grey rounded-xl mx-auto"
+            >
+              <div class="flex items-center mb-4 space-x-4">
+                <img
+                  class="w-10 h-10 rounded-full"
+                  src="./img/avatar-anisha.png"
+                  alt=""
+                />
+                <div class="space-y-1 font-medium text-blackAlternative">
+                  <p>Alisha Lee</p>
+                </div>
+              </div>
+              <div class="flex items-center mb-1">
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+                <svg
+                  class="w-4 h-4 text-gray-300 dark:text-gray-500 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+              </div>
+              <footer class="mb-5 text-sm text-gray-500 dark:text-gray-400">
+                <p>
+                  <time datetime="2023-03-03 19:00">March 3, 2023</time>
+                </p>
+              </footer>
+              <p class="mb-2 text-gray-500 dark:text-gray-400">
+                I can't express how grateful I am to Mr. ABC. His in-depth
+                knowledge and commitment to his clients are remarkable. He made
+                the complex immigration journey feel effortless and provided
+                invaluable guidance every step of the way. I highly recommend
+                his services to anyone seeking immigration assistance.
+              </p>
+              <a
+                href="https://www.google.com"
+                target="main"
+                class="block mb-5 text-sm font-medium text-blue-600 hover:underline dark:text-blue-500"
+                >Read more</a
+              >
+            </article>
+          </div>
+          <div
+            class="flex justify-center flex-col items-center p-4 rounded-lg"
+            style="max-width: 300px; min-width: 300px"
+          >
+            <article
+              class="p-5 flex flex-col items-start justify-start overflow-hidden text-xs bg-grey rounded-xl mx-auto"
+            >
+              <div class="flex items-center mb-4 space-x-4">
+                <img
+                  class="w-10 h-10 rounded-full"
+                  src="./img/avatar-ali.png"
+                  alt=""
+                />
+                <div class="space-y-1 font-medium text-blackAlternative">
+                  <p>Elise Brown</p>
+                </div>
+              </div>
+              <div class="flex items-center mb-1">
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+              </div>
+              <footer class="mb-5 text-sm text-gray-500 dark:text-gray-400">
+                <p>
+                  <time datetime="2023-03-03 19:00">March 3, 2023</time>
+                </p>
+              </footer>
+              <p class="mb-2 text-gray-500 dark:text-gray-400">
+                I had the privilege of Mr. XYZ's guidance for my immigration
+                application. His team's personalized approach and unwavering
+                commitment were truly impressive. They made a daunting process
+                feel manageable and were with me every step of the way. I
+                couldn't be happier with the results.
+              </p>
+              <a
+                href="https://www.google.com"
+                target="main"
+                class="block mb-5 text-sm font-medium text-blue-600 hover:underline dark:text-blue-500"
+                >Read more</a
+              >
+            </article>
+          </div>
+          <div
+            class="flex justify-center flex-col items-center p-4 rounded-lg"
+            style="max-width: 300px; min-width: 300px"
+          >
+            <article
+              class="p-5 flex flex-col items-start justify-start overflow-hidden text-xs bg-grey rounded-xl mx-auto"
+            >
+              <div class="flex items-center mb-4 space-x-4">
+                <img
+                  class="w-10 h-10 rounded-full"
+                  src="./img/avatar-richard.png"
+                  alt=""
+                />
+                <div class="space-y-1 font-medium text-blackAlternative">
+                  <p>John Elia</p>
+                </div>
+              </div>
+              <div class="flex items-center mb-1">
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+              </div>
+              <footer class="mb-5 text-sm text-gray-500 dark:text-gray-400">
+                <p>
+                  <time datetime="2023-03-03 19:00">March 3, 2023</time>
+                </p>
+              </footer>
+              <p class="mb-2 text-gray-500 dark:text-gray-400">
+                Team's professionalism and dedication to detail ensured that my
+                application was submitted flawlessly. I appreciate his patience
+                and clear communication, which made the process stress-free. I
+                wholeheartedly endorse his services.
+              </p>
+              <a
+                href="https://www.google.com"
+                target="main"
+                class="block mb-5 text-sm font-medium text-blue-600 hover:underline dark:text-blue-500"
+                >Read more</a
+              >
+            </article>
+          </div>
+          <div
+            class="flex justify-center flex-col items-center p-4 rounded-lg"
+            style="max-width: 300px; min-width: 300px"
+          >
+            <article
+              class="p-5 flex flex-col items-start justify-start overflow-hidden text-xs bg-grey rounded-xl mx-auto"
+            >
+              <div class="flex items-center mb-4 space-x-4">
+                <img
+                  class="w-10 h-10 rounded-full"
+                  src="./img/avatar-shanai.png"
+                  alt=""
+                />
+                <div class="space-y-1 font-medium text-blackAlternative">
+                  <p>Shanai Peneer</p>
+                </div>
+              </div>
+              <div class="flex items-center mb-1">
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+                <svg
+                  class="w-4 h-4 text-yellow-300 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+                <svg
+                  class="w-4 h-4 text-gray-300 dark:text-gray-500 mr-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 22 20"
+                >
+                  <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                  />
+                </svg>
+              </div>
+              <footer class="mb-5 text-sm text-gray-500 dark:text-gray-400">
+                <p>
+                  <time datetime="2023-03-03 19:00">March 3, 2023</time>
+                </p>
+              </footer>
+              <p class="mb-2 text-gray-500 dark:text-gray-400">
+                Mr. XYZ and his team are truly exceptional. From the moment I
+                walked into their office, I felt like more than just a client; I
+                felt like family. Their dedication and personal attention to my
+                immigration process were outstanding. I couldn't have asked for
+                a better experience.
+              </p>
+              <a
+                href="https://www.google.com"
+                target="main"
+                class="block mb-5 text-sm font-medium text-blue-600 hover:underline dark:text-blue-500"
+                >Read more</a
+              >
+            </article>
+          </div>
+        </div>
+        <div class="absolute z-30 space-x-3 -bottom-1 left-1/2 xl:hidden">
+          <button
+            id="fbtn-1"
+            type="button"
+            class="w-3 h-3 rounded-full bg-slate-500 scroll-active transition delay-150 ease-in-out hover:bg-yellow-400"
+          ></button>
+          <button
+            id="fbtn-2"
+            type="button"
+            class="w-3 h-3 rounded-full bg-slate-500 transition delay-150 ease-in-out hover:bg-yellow-400"
+          ></button>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="p-8 bg-[url('img/map.webp')] bg-cover">
+      <div
+        class="flex flex-col md:flex-row justify-center items-center md:justify-between"
+      >
+        <div
+          class="flex flex-col justify-center rounded-lg bg-greySubtle p-5 space-y-4 md:ml-5 w-2/3 md:w-auto md:h-1/2 md:self-end"
+        >
+          <div
+            class="flex flex-row flex-shrink-0 items-center text-center text-sm md:text-lg font-bold text-black me-2 justify-center"
+          >
+            <img src="/img/logo.png" alt="" style="height: 70px" />
+            <h1>
+              Tailwind <br />
+              Immigration
+            </h1>
+          </div>
+          <div
+            class="flex flex-col justify-center text-center space-y-1 text-sm text-red-700"
+          >
+            <span>Suite 001, Unit 007, 3000 Main St.</span>
+            <span>Riverdale, ON X0Z0Y0</span>
+          </div>
+          <div class="flex flex-col space-y-2 text-center">
+            <span>Mon-Fri: 11am-7pm </span>
+            <span>Sat/Sun: Call only</span>
+            <span
+              ><i class="fa-solid fa-phone text-brightRed"> &nbsp</i
+              >905-999-9999</span
+            >
+            <span class="text-sm"
+              ><i class="fa-solid fa-envelope text-brightRed">&nbsp</i
+              >TailwindImmigration@xyz.com</span
+            >
+          </div>
+          <div
+            class="container mx-auto text-center bg-brightRed text-whiteAlternative p-2 w-32 rounded-lg active:bg-blackAlternative hover:bg-brightRedLight"
+          >
+            <a href="https://www.google.com" target="_blank"
+              ><i class="fa-solid fa-location-dot"></i
+              ><span>&nbsp Directions</span></a
+            >
+          </div>
+        </div>
+        <div
+          class="flex flex-col bg-greySubtle sm:w-2/3 md:w-auto items-center rounded-lg mt-4 md:mt-0"
+        >
+          <form
+            class="bg-greySubtle shadow-md rounded px-8 pt-6 pb-8 space-y-4 w-full md:w-96"
+          >
+            <div class="">
+              <label class="block text-gray-700 text-sm font-bold" for="name">
+                Full Name
+              </label>
+              <input
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="name"
+                type="text"
+                placeholder="Your name..."
+              />
+            </div>
+            <div class="">
+              <label
+                class="block text-gray-700 text-sm font-bold"
+                for="password"
+              >
+                Email Address
+              </label>
+              <input
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="email"
+                type="email"
+                placeholder="johnsmith@gmail.com"
+              />
+            </div>
+            <div>
+              <label for="phone" class="block text-gray-700 text-sm font-bold"
+                >Phone</label
+              >
+              <input
+                type="tel"
+                id="phone"
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                placeholder="Phone Number"
+                pattern="[0-9]{10}"
+                maxlength="12"
+              />
+            </div>
+            <div>
+              <label for="Message" class="block text-gray-700 text-sm font-bold"
+                >Inquiry</label
+              >
+              <textarea
+                type="text"
+                id="inquiry"
+                rows="5"
+                required
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                placeholder="How can we help you?"
+              ></textarea>
+            </div>
+            <div class="flex items-center justify-between">
+              <button
+                class="bg-brightRed hover:bg-brightRedLight active:bg-blackAlternative text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                type="button"
+              >
+                Send Message
+              </button>
+              <a
+                class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800"
+                href="#"
+              >
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer" class="bg-brightRed">
+      <div
+        class="lg:container mx-auto flex flex-col md:flex-row justify-between p-5 text-whiteAlternative"
+      >
+        <div class="flex flex-row md:flex-col text-center p-4 justify-between">
+          <div
+            class="flex flex-col flex-shrink-0 items-center text-center text-sm md:text-lg font-bold me-2 justify-center"
+          >
+            <img src="/img/logo-white.png" alt="" style="height: 70px" />
+            <h1>Tailwind Immigration</h1>
+            <p class="hidden md:inline text-xs">Immigration Services</p>
+          </div>
+
+          <div class="flex flex-col">
+            <div class="flex justify-evenly my-4">
+              <a href="https://www.facebook.com" target="main">
+                <i
+                  class="fa-brands fa-facebook-f hover:text-brightRedLight active:text-blackAlternative cursor-pointer"
+                ></i
+              ></a>
+              <a href="https://www.twitter.com" target="main"
+                ><i
+                  class="fa-brands fa-x-twitter hover:text-brightRedLight active:text-blackAlternative cursor-pointer"
+                ></i
+              ></a>
+              <a href="https://www.linkedin.com" target="main"
+                ><i
+                  class="fa-brands fa-linkedin hover:text-brightRedLight active:text-blackAlternative cursor-pointer"
+                ></i
+              ></a>
+            </div>
+            <span class="text-xs text-center"
+              >&copy; Tailwind Immigration Services All rights reserved</span
+            >
+          </div>
+        </div>
+        <div class="flex justify-between w-full md:w-1/2 p-4">
+          <div id="navigate" class="flex flex-col justify-start">
+            <h5 class="font-semibold mb-3">Navigate</h5>
+            <div class="text-sm flex flex-col space-y-1">
+              <a href="#">Home Page</a>
+              <a href="#services">Services</a>
+              <a href="#">Book an Appointment</a>
+            </div>
+          </div>
+          <div id="about" class="flex flex-col justify-start">
+            <h5 class="font-semibold mb-3">About</h5>
+            <div class="text-sm flex flex-col space-y-1">
+              <a href="#">About us</a>
+              <a href="#">Our Team</a>
+              <a href="#feedback">Testimonials</a>
+            </div>
+          </div>
+          <div id="contact" class="flex flex-col justify-start">
+            <h5 class="font-semibold mb-3">Contact</h5>
+            <div class="text-sm flex flex-col space-y-1">
+              <a href="#">Find Us</a>
+              <a href="#">FAQ</a>
+              <a href="#">Website Issues</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- <div class="p-5">
+      <form class="w-full max-w-lg">
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            <label
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              for="grid-first-name"
+            >
+              First Name
+            </label>
+            <input
+              class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+              id="grid-first-name"
+              type="text"
+              placeholder="Jane"
+            />
+          </div>
+          <div class="w-full md:w-1/2 px-3">
+            <label
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              for="grid-last-name"
+            >
+              Last Name
+            </label>
+            <input
+              class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              id="grid-last-name"
+              type="text"
+              placeholder="Doe"
+            />
+          </div>
+        </div>
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            <label
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              for="grid-email"
+            >
+              Email Address
+            </label>
+            <input
+              class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+              id="grid-email"
+              type="text"
+              placeholder="janedoe@gmail.com"
+            />
+          </div>
+          <div class="w-full md:w-1/2 px-3">
+            <label
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              for="grid-phone"
+            >
+              Phone
+            </label>
+            <input
+              class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              id="grid-phone"
+              type="number"
+              placeholder="905-999-9999"
+            />
+          </div>
+        </div>
+
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            <label
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              for="grid-visa"
+            >
+              Visa Type
+            </label>
+            <div class="relative">
+              <select
+                class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                id="grid-visa"
+              >
+                <option>Work Permit</option>
+                <option>Student Visa</option>
+                <option>Super Visa</option>
+                <option>Visitor Visa</option>
+                <option>Express Entry / PR</option>
+                <option>Family-Sponsorship</option>
+                <option>TRV</option>
+                <option>Others</option>
+              </select>
+              <div
+                class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
+              >
+                <svg
+                  class="fill-current h-4 w-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            <label
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              for="grid-consultant"
+            >
+              Consultant
+            </label>
+            <div class="relative">
+              <select
+                class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                id="grid-consultant"
+              >
+                <option>Work Permit</option>
+                <option>Student Visa</option>
+                <option>Super Visa</option>
+                <option>Visitor Visa</option>
+                <option>Express Entry / PR</option>
+                <option>Family-Sponsorship</option>
+                <option>TRV</option>
+                <option>Others</option>
+              </select>
+              <div
+                class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
+              >
+                <svg
+                  class="fill-current h-4 w-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap -mx-3 mb-2">
+          <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+            <label
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              for="grid-city"
+            >
+              City
+            </label>
+            <input
+              class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              id="grid-city"
+              type="text"
+              placeholder="Albuquerque"
+            />
+          </div>
+          <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+            <label
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              for="grid-province"
+            >
+              Province
+            </label>
+            <div class="relative">
+              <select
+                class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                id="grid-province"
+              >
+                <option>ON</option>
+                <option>QC</option>
+                <option>NS</option>
+                <option>NB</option>
+                <option>MB</option>
+                <option>BC</option>
+                <option>PE</option>
+                <option>SK</option>
+                <option>AB</option>
+                <option>NL</option>
+                <option>NT (Territory)</option>
+                <option>YT (Territory)</option>
+                <option>NU (Territory)</option>
+              </select>
+              <div
+                class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
+              >
+                <svg
+                  class="fill-current h-4 w-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+            <label
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              for="grid-postalcode"
+            >
+              Postal Code
+            </label>
+            <input
+              class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              id="grid-postalcode"
+              type="text"
+              placeholder="L6P 0Z0"
+            />
+          </div>
+        </div>
+        <div class="flex flex-col  mb-6">
+          <label
+            for="note"
+            class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+            >Note</label
+          >
+          <textarea
+            id="note"
+            rows="4"
+            class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="Write your thoughts here..."
+          ></textarea>
+        </div>
+      </form>
+    </div> -->
+  </body>
+</html>
